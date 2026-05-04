@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uscophy"
-version = "1.0"
+version = "0.1.2"
 description = "usco phylo - a workflow to extract single copy busco genes from genomes and prepare them for phylogenetic reconstruction"
 authors = [
     { name = "Sebastian Martin", email = "s.martin@leibniz-lib.de" }
