@@ -9,7 +9,7 @@ description = "usco phylo - a workflow to extract single copy busco genes from g
 authors = [
     { name = "Sebastian Martin", email = "s.martin@leibniz-lib.de" }
 ]
-license = { text = "BSD-3" }
+license = "GPL-3.0-only"
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [
@@ -34,6 +34,7 @@ Tracker = "https://github.com/smrtin/uscophy/issues"
 
 [tool.setuptools]
 packages = ["uscophy"]
+license-files = ["LICENSE"]
 
 [tool.setuptools.package-data]
 uscophy = [
